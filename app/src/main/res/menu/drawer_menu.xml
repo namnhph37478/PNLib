@@ -1,0 +1,56 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Header -->
+    <group android:id="@+id/group_header">
+        <item
+            android:id="@+id/menu_header"
+            android:title="Welcome administrator"
+            android:icon="@drawable/ic_profile"
+            android:enabled="false"/>
+    </group>
+
+    <!-- Quản lý -->
+    <group android:id="@+id/group_management">
+        <item
+            android:id="@+id/nav_quan_ly_phieu_muon"
+            android:title="Quản lý Phiếu Mượn"
+            android:icon="@drawable/ic_book"/>
+        <item
+            android:id="@+id/nav_quan_ly_loai_sach"
+            android:title="Quản lý Loại sách"
+            android:icon="@drawable/ic_category"/>
+        <item
+            android:id="@+id/nav_quan_ly_sach"
+            android:title="Quản lý Sách"
+            android:icon="@drawable/ic_library_books"/>
+        <item
+            android:id="@+id/nav_quan_ly_thanh_vien"
+            android:title="Quản lý Thành viên"
+            android:icon="@drawable/ic_people"/>
+    </group>
+
+    <!-- Thống kê -->
+    <group android:id="@+id/group_statistics">
+        <item
+            android:id="@+id/nav_sach_muon_nhieu"
+            android:title="10 Sách mượn nhiều nhất"
+            android:icon="@drawable/ic_top10"/>
+        <item
+            android:id="@+id/nav_doanh_thu"
+            android:title="Doanh thu"
+            android:icon="@drawable/ic_money"/>
+    </group>
+
+    <!-- Người dùng -->
+    <group android:id="@+id/group_user">
+        <item
+            android:id="@+id/nav_them_nguoi_dung"
+            android:title="Thêm người dùng"
+            android:icon="@drawable/ic_add_user"/>
+        <item
+            android:id="@+id/nav_doi_mat_khau"
+            android:title="Đổi mật khẩu"
+            android:icon="@drawable/ic_change_password"/>
+    </group>
+
+</menu>
